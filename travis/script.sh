@@ -1,5 +1,5 @@
 #!/bin/sh
 set -e
 
-xctool -workspace GuildBrowser_Starter-scheme MyScheme build test
-#MyWorkspace 
+xctool -workspace GuildBrowser_Starter-scheme GuildBrowser build test
+#MyWorkspace MyScheme
