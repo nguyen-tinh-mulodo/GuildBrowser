@@ -1,5 +1,2 @@
----
-  language: objective-c
-
-  before_script: travis/before_script.sh
-  script: travis/script.sh
+ language: objective-c
+ rvm: 1.9.2
