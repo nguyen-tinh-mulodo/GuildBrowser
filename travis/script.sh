@@ -1,6 +1,4 @@
 #!/bin/sh
+set -e
 
-export PATH="`pwd`/bin:$PATH"
-echo "PATH: $PATH"
-
-rake ci
+xctool -workspace MyWorkspace -scheme MyScheme build test
