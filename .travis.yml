@@ -1,2 +1,5 @@
- language: objective-c
- rvm: 1.9.2
+# tell travis that this is an objective-c project
+language: objective-c
+
+# install xcodetest dependencies
+before_install: ./install_dependencies.sh
