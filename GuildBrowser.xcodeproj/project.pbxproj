@@ -179,9 +179,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7B958B131794DF8E008D2785 /* nhtinhtesttravis */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = nhtinhtesttravis;
+			sourceTree = "<group>";
+		};
 		CB9FDC3015E9872D00B3713E = {
 			isa = PBXGroup;
 			children = (
+				7B958B131794DF8E008D2785 /* nhtinhtesttravis */,
 				CB9FDCEC15E9B31400B3713E /* images */,
 				CB9FDCC115E9A8DA00B3713E /* AFNetworking */,
 				CB9FDC4515E9872D00B3713E /* GuildBrowser */,
